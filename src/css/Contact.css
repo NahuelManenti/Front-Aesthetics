@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.container-map-form {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+
+}
+.contact-div-map>h6{
+    font-weight: 5;
+}
+.contact-div-map>h4{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.contact-div-map {
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    background-color: rgb(228, 146, 146);
+    width: 40%;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-div-form {
+    border: 1px solid rgb(228, 160, 160);
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: 73vh;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.p-from-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p-from-form>p{
+    font-size: 1.1rem;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.title-contact-form {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.background-aesthethic{
+    background-image: url(../images/ubiestetica.png);
+    width: 80%;
+    height: 440px;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 767px){
+    .container-map-form{
+        display: contents;
+        flex-direction: column;
+    }
+    .contact-div-map{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        text-align: center;
+        min-height: 125vh;
+    }
+    .contact-div-map>h4{
+        font-size: 1.5rem;
+    }
+    .css-1ebzueb>:not(style){
+        width: 13rem!important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .background-aesthethic{
+        background-image: url(../images/ubiestetica.png);
+        background-position: center;
+    }
+    .contact-div-form{
+        border-radius: 0px 0px 5px 5px;
+        text-align: center;
+        width: 100%;
+        min-height: 125vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .p-from-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 1023px){
+    .container-map-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-div-map{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        text-align: center;
+        min-height: 120vh;
+    }
+    .contact-div-map>h4{
+        font-size: 1.5rem;
+    }
+    .css-1ebzueb>:not(style){
+        width: 20rem!important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .background-aesthethic{
+        background-image: url(../images/ubiestetica.png);
+        background-position: center;
+    }
+    .contact-div-form{
+        border-radius: 0px 0px 5px 5px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 120vh;
+    }
+    .p-from-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container-map-form {
+        display: flex;
+        padding: 1.5rem;
+        justify-content: center;
+    }
+    .contact-div-map>h6{
+        font-weight: 5;
+    }
+    .contact-div-map{
+        width: 50%;
+        border-radius: 5px 5px 0px 0px;
+        text-align: center;
+        min-height: 130vh;
+    }
+    .contact-div-form{
+        width: 50%;
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .contact-div-map{
+        min-height: 2rem!important;
+        height: 50vh;
+    }
+    .background-aesthethic{
+        height: 15rem!important;
+    }
+    .css-1ebzueb>:not(style){
+        width: 15rem!important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-div-form{
+        min-height: 83vh;
+    }
+ }

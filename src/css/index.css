@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root{
+  min-height: 100% !important;
+  background-image: url(../images/asd.jpg);
+}
+
+.divCallTA {
+  flex-grow: 1;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 93vh;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.btnCTA {
+  padding: 1.5rem 3rem;
+  border: 3px solid black;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s;
+  font-size: 20px;
+  z-index: 1;
+  font-family: 'Cormorant SC', serif;
+  color: black;
+  font-weight: 700;
+}
+
+.btnCTA::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #FFCBD1;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.btnCTA:hover::before {
+  width: 105%;
+}
+
+.btnCTA:hover {
+  color: #111;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+.hCTA{
+  color: black;
+  text-align: center;
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hCTA2{
+  text-align: center;
+  color: black;
+  text-align: center;
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+  font-weight: 600;
+}
+@media screen and (max-width: 460px){
+  .divCallTA{
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  }
+
+  .btnCTA{
+    font-size: 1em;
+  }
+  .hCTA{
+    text-align: center;
+  }
+  .hCTA2{
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    font-weight: 600;
+  }
+
+}
+
+.nose{
+  min-height: 100vh;
+}
+@media screen and (max-width: 320px){
+  .divCallTA{
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  }
+
+  .btnCTA{
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+  }
+  .hCTA{
+    color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .hCTA2{
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+}

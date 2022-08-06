@@ -1,0 +1,51 @@
+.form-main-container {
+    min-height: 90vh;
+    /* background-image: url('../images/imagen-sur-argentina.jpeg'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    background-color: #f8f9faaa;
+
+}
+
+.signupform-container {
+    background-color: #f8f9faaa;
+    border-radius: 15px;
+}
+
+.form-label {
+    background-color: #f8f9fabb;
+    border-radius: 5px;
+
+}
+
+.form-label-alert {
+    height: fit-content!important;
+    padding: 0px 1rem!important;
+    border: 0px!important;
+    background-color: #f8f9fabb!important;
+
+}
+
+textarea {
+    resize: none;
+ }
+
+.button-submit {
+    background-color: #1b72e8!important;
+    color: white!important;
+    /* font-weight: 700!important; */
+    font-family: Arial, Helvetica, sans-serif!important;
+    padding-top: .2rem!important;
+    padding-bottom: .2rem!important;
+    width: fit-content!important;
+}
+
+.admin-panel-container {
+    min-height: 78vh;
+}

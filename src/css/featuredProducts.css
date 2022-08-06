@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;1,200&family=Edu+NSW+ACT+Foundation:wght@500&family=Oswald&family=Sacramento&display=swap');
+
+.title-products>h3 {
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    background-color: #FFCBD1;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.padre-card-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    width: 250px !important;
+    height: 300px;
+    justify-content: space-between;
+    margin: 2rem;
+    box-shadow: 4px 10px 25px -4px rgba(0, 0, 0, 0.75) !important;
+    -webkit-box-shadow: 4px 10px 25px -4px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 4px 10px 25px -4px rgba(0, 0, 0, 0.75) !important;
+}
+.card-component:hover{
+    overflow:hidden;
+    -webkit-transform:scale(1);transform:scale(1.1);
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 554px;
+}
+
+.MuiCardActions-root {
+    background-color: #D0B4FA;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+.div-featured-products {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 767px) {
+    .div-featured-products {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .div-featured-products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

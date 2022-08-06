@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-news {
+    margin: 1rem;
+    min-height: 375px!important;
+    display: flex;
+    flex-direction: row;
+    background-color: #00000026!important;
+    border: 1px solid black;
+}
+
+/* .card-content-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.padre-news {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .card-news {
+        display: flex;
+        flex-direction: column;
+        min-height: 550px!important;
+    }
+
+    .btn-news-card {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-news {
+        display: flex;
+        flex-direction: column;
+        min-height: 550px;
+    }
+
+    .card-news-jq {
+        max-height: 166px !important;
+    }
+
+    .description-news {
+        min-height: 201px;
+    }
+
+    .title-news {
+        font-size: 18px !important;
+    }
+
+    .btn-news-card {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .padre-news {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap;
+    }
+
+    .card-news {
+        min-height: 400px;
+    }
+
+    .card-news-jq {
+        max-height: 700px !important;
+        max-width: 300px !important;
+    }
+
+    .description-news {
+        min-height: 201px;
+    }
+
+    .title-news {
+        font-size: 18px !important;
+    }
+
+    .card-content-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-news-card {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .padre-news {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap;
+    }
+    .card-news {
+        min-height: 425px;
+    }
+    .title-news {
+        font-size: 30px !important;
+    }
+
+    .description-news {
+        font-size: 20px !important;
+    }
+}
