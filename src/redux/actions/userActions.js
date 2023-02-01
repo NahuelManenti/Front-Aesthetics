@@ -4,7 +4,7 @@ import axios from "axios";
 const userActions ={
     userSignUp: (userData) => {
         return async (dispatch, getState) => {
-            const res = await axios.post('https://teamlate-back.herokuapp.com/api/signUp', {userData})
+            const res = await axios.post('https://backend-aesthetics.up.railway.app/api/signUp', {userData})
             dispatch({
                 type: 'message',
                 payload: {
@@ -17,7 +17,7 @@ const userActions ={
     },
     userSignIn: (userLogin) => {
         return async (dispatch, getState) => {
-            const res = await axios.post('https://teamlate-back.herokuapp.com/api/signIn', {userLogin})
+            const res = await axios.post('https://backend-aesthetics.up.railway.app/api/signIn', {userLogin})
             
             if(res.data.success) {
                 localStorage.setItem('token',res.data.response.token)
@@ -47,7 +47,7 @@ const userActions ={
       },
       signOutUser: (closeUser) => {
         return async (dispatch, getState) => {
-            await axios.post('https://teamlate-back.herokuapp.com/api/signOut',{closeUser})
+            await axios.post('https://backend-aesthetics.up.railway.app/api/signOut',{closeUser})
             localStorage.removeItem('token')
             dispatch({
                 type: 'user',
@@ -58,7 +58,7 @@ const userActions ={
     },
     verifyToken: (token) => {
         return async (dispatch, getState) => {
-            const user = await axios.get('https://teamlate-back.herokuapp.com/api/verifyToken', {headers: {'Authorization': 'Bearer '+token}} )
+            const user = await axios.get('https://backend-aesthetics.up.railway.app/api/verifyToken', {headers: {'Authorization': 'Bearer '+token}} )
             if (user.data.success) {
                 dispatch({
                     type: 'user',

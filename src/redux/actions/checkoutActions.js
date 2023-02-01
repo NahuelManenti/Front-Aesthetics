@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let urlLocalHost = 'https://teamlate-back.herokuapp.com/'
+let urlLocalHost = 'https://backend-aesthetics.up.railway.app/'
 
 
 const checkoutActions = {
