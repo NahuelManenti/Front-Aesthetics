@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7336190.css",
+    "main.js": "/static/js/main.37e738d9.js",
+    "static/media/asd.jpg": "/static/media/asd.30c80c62b33d145ce124.jpg",
+    "static/media/ubiestetica.png": "/static/media/ubiestetica.421ec6fecdac440260d4.png",
+    "static/media/background.jpg": "/static/media/background.cdbdc2cb7250e07456bb.jpg",
+    "static/media/logolotus.png": "/static/media/logolotus.0f0621359c68bf909905.png",
+    "index.html": "/index.html",
+    "static/media/index.cjs": "/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.c7336190.css.map": "/static/css/main.c7336190.css.map",
+    "main.37e738d9.js.map": "/static/js/main.37e738d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7336190.css",
+    "static/js/main.37e738d9.js"
+  ]
+}
