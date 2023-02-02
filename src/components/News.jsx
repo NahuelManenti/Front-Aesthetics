@@ -30,8 +30,8 @@ export default function News() {
                         <h5><button className="button3">Agregar Novedad</button></h5>
                     </LinkRouter>)}
             </div>
-            {(novedades && novedades.map(novedad => 
-            <Repiola novedad={novedad}/>))}
+            {/* {(novedades && novedades.map(novedad => 
+            <Repiola novedad={novedad}/>))} */}
             </div>
         </>
     );
